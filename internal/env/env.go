@@ -7,6 +7,7 @@ import (
 
 func GetString(key string) string {
 	value := os.Getenv(key)
+
 	if value != "" {
 		return value
 	}
